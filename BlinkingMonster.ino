@@ -59,7 +59,7 @@ if(personIsGone == 1){
 }
 
 void moveServoToShowCandy(){
-  for (servoPos = 0; servoPos <= 180; servoPos += 1)
+  for (servoPos = 0; servoPos <= 140; servoPos += 1)
       {
           myservo.write(servoPos);             
           delay(1);                     
@@ -70,7 +70,7 @@ void moveServoToShowCandy(){
 }
 
 void moveServoToHideCandy(){
-   for (servoPos = 180; servoPos >= 0; servoPos -= 1) 
+   for (servoPos = 140; servoPos >= 0; servoPos -= 1) 
        {
           myservo.write(servoPos);           
           delay(1);                  
